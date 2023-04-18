@@ -133,7 +133,7 @@ Axiom _N31': N31' = max (sub N21' W211)(max(sub N22' W221)(max(sub N23' W231)(su
 Axiom _N32': N32' = max (sub N21' W212)(max(sub N22' W222)(max(sub N23' W232)(sub N24' W242))) - B32'.
 Axiom _N33': N33' = max (sub N21' W213)(max(sub N22' W223)(max(sub N23' W233)(sub N24' W243))) - B33'.
 
-(*lipsiz等式中max(N3i-N3i')則Xo,Xo'= N1i,N1i'*)
+(*lipschitz限制式中max(N3i-N3i')則Xo,Xo'= N1i,N1i'*)
 Variable Xo Xo': nat.
 Axiom Xo_N11 : max(N31-N31') (max(N32-N32')(N33-N33')) = (N31-N31') -> Xo = N11 -> Xo' = N11'.
 Axiom Xo_N12 : max(N31-N31') (max(N32-N32')(N33-N33')) = (N32-N32') -> Xo = N12 -> Xo' = N12'.
